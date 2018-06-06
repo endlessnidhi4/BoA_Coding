@@ -1,0 +1,74 @@
+
+	/*
+		Date: June 6th, 2018
+		Styles for Grocery List
+
+	*/	
+		
+		
+		*{
+			box-sizing: border-box;
+
+		}
+		body {
+			  width: 100%;
+			  font-family: Arial, Helvetica, sans-serif;
+			  font-size: 16px;
+			  line-height: 150%;
+			  background-color: #FFF;
+			  color: #2C3A47;
+			  padding: 0 10px 0 10px;
+			  margin: 0;
+			}
+						
+		.container {
+					background-color: #FFF4D5;
+					border-right: 2px solid #E17055;
+					border-bottom: 2px solid #E17055;			
+		}
+		
+		.grCategory{
+					color: #E17055;
+					font-weight: bold;
+					margin-bottom: 10px;
+					text-transform: uppercase;
+		}
+		
+		.grItem{
+				text-transform: capitalize;
+				color: #E17055;
+				font-weight: bolder;
+				margin-bottom: 0;		
+		}
+		
+		.grBrand{
+				text-transform: uppercase;
+				margin-top:0;
+		}
+		
+		.grQty{
+			   float: right;
+			   margin-top:20%;
+		}
+
+		/* This media queries rule will trigger if the device screen is more than 768px */
+		@media only screen and (min-width: 768px) {
+			.container{
+						width: 20%;
+						float: left;
+						margin: 2%;
+						padding: 15px;			
+					}
+		} 
+		
+		/* This media queries rule will trigger when the device screen is 768px or less */
+
+		@media only screen and (max-width: 768px) {
+			.container{
+						width: 100%;
+						float: left;
+						margin-bottom: 5%;
+						padding: 10px;	
+						
+					}
+		} 
